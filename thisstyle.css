@@ -1,0 +1,266 @@
+
+.phone {
+    display: block;
+}
+
+.pcscreen {
+    display: none;
+}
+
+.section {
+    max-height: 14000px;
+    height: auto;  
+    margin: 150px auto;  
+    background-color: white; 
+}
+
+.minh800 {
+    min-height: 800px;
+}
+
+.minh700 {
+    min-height: 700px;
+}
+.minh600 {
+    min-height: 600px;
+}
+
+
+
+.polaroid img{
+    max-width: 900px;
+    width: 100%;
+}
+
+.insta-text {
+    margin: auto;
+    
+}
+
+.ingress {
+    
+    margin: auto;
+    margin-top: 50px;    
+    
+}
+
+.insta-text p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.insta-text .question {
+    color: black;
+    
+}
+
+p {
+    font-family: adelle_sansregular;
+}
+
+
+
+h3 {
+    font-family: adelle_sansthin;
+}
+
+.byline i {
+    letter-spacing: 1px;
+}
+
+.bylineimg img {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.byline-wrapper hr {
+    width: 330px;
+}
+
+.section:nth-child(odd)  .row{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.ingress h3 {
+    line-height: 35px;
+}
+
+
+
+#tittelimgl {
+    width: 85%;
+}
+
+
+
+ /******** SMALL SCREEN *******/
+ @media screen and (min-width: 576px) and (max-width:767px){
+
+    .section:nth-child(odd)  .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .section {
+        margin-bottom: 100px;
+    }
+
+    .bylineimg img {
+        margin-top: 50px;
+    }
+
+    .ingress h3 {
+        line-height: 35px;
+    }
+
+    .phone {
+        display: block;
+    }
+    
+    .pcscreen {
+        display: none;
+    }
+
+    
+
+ }
+
+ /******** Medium SCREEN *******/
+@media screen and (min-width: 768px) and (max-width:991px){
+
+    .section{   
+        min-height: 700px;
+        height: auto;
+        margin-bottom: 100px;
+        
+    }
+
+    .polaroid img {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0px;
+        left: 0px;
+    }
+    body {
+        overflow: visible;
+    }
+
+    .bylineimg img {
+        margin-top: 50px;
+    }
+    
+
+    
+
+    .section:nth-child(odd)  .row{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #tittelimg {
+        width: 75%;
+    }
+
+    .ingress h3 {
+        line-height: 35px;
+    }
+
+    .phone {
+        display: none;
+    }
+    
+    .pcscreen {
+        display: block;
+    }
+
+
+}
+
+ 
+ /******** Large SCREEN *******/
+
+@media screen and (min-width: 992px){
+
+    .section{   
+        min-height: 600px;
+        height: auto;
+        max-height: 2000px;
+        
+    }
+
+    .bylineimg img {
+        margin-top: 50px;
+    }
+
+    .section:nth-child(odd)  .row{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #tittelimg {
+        width: 60%;
+    }
+
+    .ingress h3 {
+        width: 60%;
+        margin: auto;
+        font-size: 25px;
+        line-height: 40px;
+    }
+    
+    .byline-wrapper {
+        margin: 75px auto;
+        
+    }   
+
+    .polaroid img {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0px;
+        left: 0px;
+    }
+    body {
+        overflow: visible;
+    }
+
+    .phone {
+        display: none;
+    }
+    
+    .pcscreen {
+        display: block;
+    }
+
+   
+}
+
+@media screen and (min-width: 1200px) {
+
+    .byline-wrapper {
+        margin-bottom: 100px;
+        margin-top: 75px;
+    }
+
+    .ingress h3 {
+        width: 60%;
+        margin: auto;
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .polaroid img {
+        position: relative;
+    }
+
+    .phone {
+        display: none;
+    }
+    
+    .pcscreen {
+        display: block;
+    }
+
+
+}
